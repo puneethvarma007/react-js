@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+.ref2Container{
+  height: 100vh;
+  width: 100vh;
+}
+.active{
+  background-color: black;
+  color: aliceblue;
+}
+.inactive {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.primary{
+  background-color: aliceblue;
+  color: blue;
+}
+/* context box */
+.ComponentBox{
+  border: 2px solid burlywood;
+  padding: 40px;
+  color:rgba(137, 43, 226, 0.76);
+  background-color:rgb(240, 239, 239)
+}
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+}
+
+/* axios fetch card */
+.axiosCardContainer{
+  display: inline-block;
+  width: 320px;
+  height: 320px;
+  margin: 10px;
+}
+.axiosCard{
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+.axiosCard img{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
